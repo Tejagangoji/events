@@ -100,6 +100,216 @@ a {
   text-decoration: none;
 }
 
+header {
+  background: linear-gradient(to right, rgb(228, 228, 228), rgb(255, 241, 241));
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navlist {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navitem {
+  padding: 0.5rem;
+}
+
+.logo {
+  font-size: 1.4rem;
+  padding-left: 1rem;
+}
+
+.navitem:hover {
+  background-color: black;
+  color: white;
+}
+
+main {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 1.8rem;
+  border: 1px solid grey;
+  border-radius: 7px;
+  background: linear-gradient(to right, rgb(255, 244, 244), rgb(233, 233, 233));
+  text-align: center;
+}
+
+.evind {
+  width: 90%;
+  margin:0 auto;
+  margin-top: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homeevents {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homehead {
+  font-size: 1.2rem;
+  margin: 1rem 0rem;
+}
+
+.homeimg {
+  width: 15rem;
+  height: 12rem;
+  object-fit: cover;
+}
+
+.evtitle {
+  margin: 0.6rem 0rem;
+}
+
+.singleev {
+  width: 35rem;
+}
+
+.evimg {
+  width: 20rem;
+  height: 18rem;
+}
+
+.cityev {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cityimg {
+  width: 18rem;
+  height: 15rem;
+}
+
+.cityhead {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1.9rem;
+}
+
+.citytitle {
+  margin: 0.3rem 0rem;
+}
+
+.citydesc {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 0.9rem;
+}
+
+.sicity {
+  text-align: center;
+  padding: 1rem;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 1rem;
+  border: 1px solid grey;
+  border-radius: 7px;
+}
+
+.siimg {
+  width: 25rem;
+  height: 22rem;
+  object-fit: cover;
+}
+
+.evdesc {
+  width: 92%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.sihead {
+  margin: 0.4rem 0rem;
+}
+
+.sipara {
+  margin-bottom: 0.5rem;
+}
+
+#email {
+  margin: 0.5rem;
+  margin-top: 0;
+  font-size: 1rem;
+  padding: 0.3rem 0.3rem;
+}
+
+.subbtn {
+  font-size: 1.3rem;
+  padding: 0.5rem 0.5rem;
+  background-color: lightblue;
+  border: none;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+  .homeevents {
+    flex-direction: column;
+  }
+  .evind {
+    flex-direction: column;
+  }
+  .evdesc {
+    width: 57%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .siimg {
+    width: 18rem;
+    height: 16rem;
+  }
+}
+
+@media only screen and (max-width: 1040px) {
+  .evind {
+    flex-direction: column;
+  }
+  .evimg {
+    width: 25rem;
+    height: 22rem;
+  }
+  .cityev {
+    flex-direction: column;
+  }
+}
+
+footer {
+  font-size: 1rem;
+  padding: 0.5rem 0rem;
+  text-align: center;
+  margin-top: 0.6rem;
+  background: linear-gradient(to right, rgb(228, 228, 228), rgb(255, 241, 241));
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
