@@ -22,6 +22,8 @@ const Single = ({ data }) => {
         } catch (e) {
             console.log("Error", e);
         }
+        alert(`Your are successfully registered in ${data.id} with ${inputemail.current.value}`);
+        inputemail.current.value = ''
     }
     return (
         <div className='sicity'>
